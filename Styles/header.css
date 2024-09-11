@@ -1,0 +1,173 @@
+header
+{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 2px;
+    height: 60px;
+}
+
+.left-section
+{
+    /* border: 2px solid blueviolet; */
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+    width: 200px;
+    /* position: relative; */
+}
+.hamburger-menu
+{
+    width: 25px;
+    /* border: 1px solid brown; */
+    padding: 2px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.hamburger-menu-icon
+{
+    width: 25px;
+    padding-top: 5px;
+}
+.youtube-logo
+{
+    width: 85px;
+    /* border: 1px solid rgb(255, 0, 0); */
+    padding: 2px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.youtube-logo-icon
+{
+    width: 80px;
+    padding-top: 5px;
+}
+/* .in
+{
+    position: absolute;
+    border: black;
+    top: 0px;
+    right: 0px;
+} */
+.middle-section
+{
+    /* border: 2px solid rgb(255, 0, 208); */
+    padding: 2px;
+    flex: 2;
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.search-bar-container
+{
+    /* border: 1px solid gray; */
+    padding-left: 5px;
+    flex: 1;
+    max-width: 550px;
+    height: 40px;
+}
+.search-bar
+{
+    background-color: white;
+    border: 1px solid rgb(108, 107, 107);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 36px;
+    width: 550px;
+    padding-left: 10px;
+}
+.search-icon-container
+{
+    background-color: white;
+    border: 1px solid rgb(108, 107, 107);
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width: 35px;
+    height: 30px;
+    margin: 4px 0px 0px -3px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+.search-icon
+{
+    width: 23px;
+    padding-left: 4px;
+    padding-top: 2px;
+}
+.voice-search
+{
+    background-color: whitesmoke;
+    width: 30px;
+    height: 34px;
+    /* border: 1px solid blue; */
+    border-radius: 17px;
+    padding: 3px 0px 0px 7px;
+    margin: 5px 2px 0px 20px;
+    cursor: pointer;
+}
+.voice-search-icon
+{
+    width: 23px;
+}
+
+.right-section
+{
+    /* border: 2px solid rgb(136, 0, 255); */
+    padding: 2px;
+    margin-right: 10px;
+    flex: 1;
+    max-width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+.upload-icon-container
+{
+    /* border: 1px solid lightcoral; */
+    width: 35px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+/* .upload-icon-container:hover
+{
+
+} */
+.upload-icon
+{
+    width: 28px;
+}
+.notification-icon-container
+{
+    /* border: 1px solid lightcoral; */
+    width: 30px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.notification-icon-container
+{
+    width: 28px;
+}
+.user-icon-container
+{
+    /* border: 1px solid lightcoral; */
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.user-icon
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}

@@ -1,0 +1,23 @@
+body
+{
+    height: 1000px;
+    width: auto;
+    padding-top: 60px;
+    background-color: whitesmoke;
+}
+div
+{
+    justify-content: center;
+    align-content: center;
+    padding: 2px;
+}
+p
+{
+    font-family: Roboto, Arial;
+    margin: auto;
+}
+button
+{
+    border: none;
+    cursor: pointer;
+}
